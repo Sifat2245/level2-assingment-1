@@ -48,7 +48,7 @@ type Item = {
 };
 
 const filterByRating =(item: Item[]) =>{
-    return item.filter(item => item.rating >=4);
+    return item.filter(item => item.rating >=4 && item.rating <= 5);
 }
 
 
